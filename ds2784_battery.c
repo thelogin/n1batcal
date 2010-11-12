@@ -413,7 +413,7 @@ static int battery_get_property(struct power_supply *psy,
  * 
  * Here we call out the functions and the device attribute macros, and in the
  * probe function (end of this driver) we call out the actual file creations.
- * --RogerPodacter
+ * --RogerPodacter, theloginwithnoname
  */
 
 /* setreg - this creates a file called "setreg" and allows us to  
