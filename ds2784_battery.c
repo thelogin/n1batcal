@@ -666,7 +666,7 @@ static ssize_t show_set_age(struct device *dev, struct device_attribute *attr, c
 
 	pr_info("batt: age_scalar life left is: %d\n", age);
 
-	ret = sprintf(buf, "Battery's age: %d", age);
+	ret = sprintf(buf, "%d\n", age);
 	return ret;
 
 }
