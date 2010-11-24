@@ -1,11 +1,10 @@
 /* This driver edits add device attribute files which is the link from 
  * kernel space to user space. These files appear under 
- * /sys/devices/platform/ds2784-battery/ and are named setreg, dumpreg, 
- * statusreg, getvoltage and getcurrent. These files/functions allow  
- * interaction with the battery's read and write functions which is the
- * foundation for a re-calibration mode app along with a number of other 
- * features/advantages.
- * 
+ * /sys/devices/platform/ds2784-battery/ and are named age, voltAE,
+ * setreg, dumpreg, statusreg, getvoltage and getcurrent. These files/
+ * functions allow interaction with the battery's read and write functions
+ * which is the foundation for a re-calibration mode app along with a number
+ * of other features/advantages.
  * 
  */
 
@@ -55,3 +54,4 @@
  voltAE - interface read and write the AEvolt register
  getfull40  - read only the full40 registers (6a & 6b)
  getmah - get the mAh
+
