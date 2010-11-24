@@ -736,7 +736,7 @@ static ssize_t store_set_AEvolt (struct device *dev, struct device_attribute *at
 
 	temp = ( ( val * 100 ) / 1952 ) ;
 
-	pr_info("batt: Active Empty Voltage set to: %d percent\n", temp);
+	pr_info("batt: Active Empty Voltage set to: %d volts\n", temp);
 
 	return count;
 }
